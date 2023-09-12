@@ -29,3 +29,15 @@ lxc-create -n homeWork2 -t ubuntu -f /usr/share/doc/liblxc-common/examples/lxc-v
 
 sudo lxc-start -d -n homeWork2
 
+Входим в контейнер:
+
+sudo lxc-attach -n homeWork2
+
+Для просмотра выделенной и свободной памяти используем следующую команду:
+
+free -m
+
+Из папки sys/fs/cgroup смотрим ограничение на использование памяти контейнером:
+
+cat memory.max
+
