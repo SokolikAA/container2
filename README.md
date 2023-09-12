@@ -8,7 +8,7 @@
 
 Установка LXC с помощью команды:
 
-sudo apt install lxc lxc-templates uidmap
+~sudo apt install lxc lxc-templates uidmap~
 
 Инициализация LXC:
 
