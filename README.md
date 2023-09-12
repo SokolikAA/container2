@@ -22,6 +22,7 @@ Cоздание нового контейнера с именем homeWork2 и �
 
 lxc-create -n homeWork2 -t ubuntu -f /usr/share/doc/liblxc-common/examples/lxc-veth.conf
 
+![Screen2](https://github.com/SokolikAA/container2/assets/115178275/a7f8154f-42b3-46aa-bb0d-7cc56cf8813d)
 
 
 Запуск созданного контейнера:
