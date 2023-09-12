@@ -2,9 +2,7 @@
 Задание 1:
 1) запустить контейнер с ubuntu, используя механизм LXC
 2) ограничить контейнер 256 Мб ОЗУ и проверить, что ограничение работает
-Задание 2*: настроить автоматическую маршрутизацию между контейнерами.
 
-Задание 1.
 
 Установка LXC с помощью команды:
 
@@ -22,4 +20,11 @@ lxc version
 
 Cоздание нового контейнера с именем homeWork2 и с указанием пути для файла конфигурации с помощью команды:
 
-lxc-create -n homeWork2 -t ubuntu -f /usr/share/doc/lxc/lxc-veth.conf 
+lxc-create -n homeWork2 -t ubuntu -f /usr/share/doc/liblxc-common/examples/lxc-veth.conf
+
+ ![Screen2](https://github.com/SokolikAA/container2/assets/115178275/d1ee2ae6-2937-4220-9274-930c9edac771)
+
+Запуск созданного контейнера:
+
+sudo lxc-start -d -n homeWork2
+
